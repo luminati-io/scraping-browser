@@ -149,7 +149,7 @@ const client = await page.target().createCDPSession();
 const { status } = await client.send('Captcha.solve', { detectTimeout: 30000 });
 ```
 
-> 🤖 Learn more about our [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver).
+> **🤖 Learn more about our [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver).**
 
 ## 🔄 Automatic IP Rotation & Unlocking  
 Scraping Browser automatically rotates IPs thanks to the integrated [rotating proxies](https://brightdata.com/solutions/rotating-proxies) and handles retries for seamless data collection. 
@@ -162,7 +162,7 @@ Scraping Browser automatically rotates IPs thanks to the integrated [rotating pr
 - **Business Plan:** $6.30/GB – For scaling operations.  
 - **Enterprise:** Custom pricing for high-volume needs.  
 
-📌 **Sign up now and get your first deposit matched up to $500!**  
+**Sign up now and get your first deposit matched up to $500!**  
 
 [View Pricing](https://brightdata.com/pricing/scraping-browser)  
 
