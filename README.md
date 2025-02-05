@@ -1,4 +1,5 @@
-# 🚀 Scraping Browser by Bright Data  
+# 🚀 Scraping Browser by Bright Data
+
 *A fully automated headless browser solution for dynamic web scraping with Puppeteer, Selenium, and Playwright. The Scraping Browser is opened as a GUI on Bright Data's Infrastructure.*  
 
 [![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/scraping-browser) 
