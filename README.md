@@ -146,11 +146,10 @@ const openDevtools = async (page, client) => {
 
 ```js
 const client = await page.target().createCDPSession();
-const { status } = await client.send('Captcha.solve', { detectTimeout: 30000 }); # change the time according to your needs
-console.log(`CAPTCHA solve status: ${status}`);
+const { status } = await client.send('Captcha.solve', { detectTimeout: 30000 });
 ```
 
-> 🤖 Check out our [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver).
+> 🤖 Learn more about our [CAPTCHA Solver](https://github.com/luminati-io/Captcha-solver).
 
 ## 🔄 Automatic IP Rotation & Unlocking  
 Scraping Browser automatically rotates IPs thanks to the integrated [rotating proxies](https://brightdata.com/solutions/rotating-proxies) and handles retries for seamless data collection. 
