@@ -23,7 +23,7 @@ Scraping Browser is a fully-hosted **browser-based scraping solution** that auto
 
 ## 🚀 Getting Started  
 
-### 📌 Install Dependencies  
+### Install Dependencies  
 Ensure you have **Node.js**, **Python**, or **C#** installed along with your preferred web automation library:  
 
 ```sh
@@ -39,7 +39,7 @@ pip install selenium
 
 ## 🔧 Usage Examples
 
-### 1️⃣ Puppeteer Example (JavaScript)
+### Puppeteer Example (JavaScript)
 
 ```js
 const puppeteer = require('puppeteer-core');
@@ -66,7 +66,7 @@ main().catch(err => console.error(err.stack || err));
 
 > **💡 Learn more about [web scraping with Puppeteer](https://brightdata.com/blog/how-tos/web-scraping-puppeteer)**
 
-### 2️⃣ Playwright Example (Python)
+### Playwright Example (Python)
 
 ```python
 import asyncio
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 > **💡 Learn more about [web scraping with Playwright](https://brightdata.com/blog/how-tos/playwright-web-scraping)**
 
-### 3️⃣ Selenium Example (JavaScript)
+### Selenium Example (JavaScript)
 
 ```js
 const { Builder, Browser } = require('selenium-webdriver');
@@ -125,7 +125,7 @@ main().catch(err => console.error(err.stack || err));
 
 ## 🔥 Advanced Features
 
-### 🛠️ Debugging with Chrome DevTools
+### Debugging with Chrome DevTools
 
 Monitor browser sessions in real-time:
 
@@ -142,7 +142,7 @@ const openDevtools = async (page, client) => {
 };
 ```
 
-### 🧩 CAPTCHA Solving
+### CAPTCHA Solving
 
 ```js
 const client = await page.target().createCDPSession();
@@ -156,7 +156,7 @@ Scraping Browser automatically rotates IPs thanks to the integrated [rotating pr
 
 ## 💰 Pricing  
 
-### 💳 Flexible Plans  
+### Flexible Plans  
 - **Pay-As-You-Go:** $8.40/GB – No commitment.  
 - **Growth Plan:** $7.14/GB – Ideal for teams.  
 - **Business Plan:** $6.30/GB – For scaling operations.  
@@ -164,18 +164,18 @@ Scraping Browser automatically rotates IPs thanks to the integrated [rotating pr
 
 📌 **Sign up now and get your first deposit matched up to $500!**  
 
-[💰 View Pricing](https://brightdata.com/pricing/scraping-browser)  
+[View Pricing](https://brightdata.com/pricing/scraping-browser)  
 
 ## ❓ Frequently Asked Questions  
 
-### 🤔 What makes Scraping Browser different from a standard headless browser?  
+### What makes Scraping Browser different from a standard headless browser?  
 Scraping Browser is a fully managed, GUI-based browser that runs on Bright Data's infrastructure and automatically unlocks even the most protected sites.  
 
-### 🛡️ How does Scraping Browser handle bot detection?  
+### How does Scraping Browser handle bot detection?  
 It automates fingerprinting, CAPTCHA solving, retries, and mimics real user behavior to prevent detection.  
 
-### 🔌 Is Scraping Browser compatible with Puppeteer, Playwright, and Selenium?  
+### Is Scraping Browser compatible with Puppeteer, Playwright, and Selenium?  
 Yes! It seamlessly integrates with all major web automation tools.  
 
-### 🔍 When should I use Scraping Browser instead of a proxy?  
+### When should I use Scraping Browser instead of a proxy?  
 Use Scraping Browser when you need JavaScript rendering, interactive actions (clicks, scrolls), and multi-step navigation.  
